@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <title>余空の主页</title>
+    <meta name="keywords" content="余空,余空の主页,主页">
+
+    <link rel="stylesheet" type="text/css" href="url(../css/flesx.css">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?64b96ad59d70567600f8bbc02cd43e45";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="box">
+        <!-- 个人资料卡片 -->
+        <div class="meBox">
+            <!-- 头像 -->
+            <div class="headPhoto"></div>
+            <!-- 介绍 -->
+            <div class="meBox-title">
+                <p>余空</p>
+                <div class="fg"></div>
+            </div>
+            <div class="meBox-text">
+                <br>
+                <p>      无所事事</p>
+                <br>
+                <p>无所事事 无所事事</p>
+            </div>
+            <!-- 两个按钮 -->
+            <div class="meBox-Button">
+                <a href="https://www.coolapk.com/u/680367">Coolapk</a>
+                <a href="https://github.com/YuKongA">GitHub</a>
+            </div>
+        </div>
+
+        <!-- 伪终端介绍 -->
+        <div id="cmdBox">
+            <!-- 第一个终端 -->
+            <div class="cmd">
+                <!-- 三个按钮 -->
+                <div class="click">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <!-- 顶部标题 -->
+                <div class="title">
+                    <span>YuKongA - zsh</span>
+                </div>
+                <!-- 终端内文字 -->
+                <div class="cmdText">
+                    <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./tianqi.sh</span>
+                    <br />
+                    <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tu&skin=pitaya" frameborder="0" width="350" height="24" allowtransparency="true"></iframe>
+                    <br />
+                    <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">cat ./me.txt</span>
+                    <p>昵称：余空</p>
+                    <p>性别：男</p>
+                    <p>年龄：20岁</p>
+                    <p>地址：浙江，中国</p>
+                    <br>
+                    <p>目前状态：无所事事</p>
+                    <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">sudo rm -rf /*</span>
+                    <p>sudo: 请输入密码: *******</p>
+                    <p>zsh: 已删除</p>
+                    <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
+                    <span style="color: blue;">~</span>
+                </div>
+            </div>
+            <!-- 第二个终端 -->
+            <div class="cmd cmd2">
+                <!-- 三个按钮 -->
+                <div class="click">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <!-- 顶部标题 -->
+                <div class="title">
+                    <span>YuKongA - zsh</span>
+                </div>
+                <!-- 终端内文字 -->
+                <div class="cmdText">
+                    <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./links.sh</span>
+                    <p>我的站点：</p>
+                    <ul class="ul">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="https://www.coolapk.com/u/680367">Coolapk</a></li>
+                        <li><a href="https://github.com/YuKongA">Github</a></li>
+                        <li><a href="https://yukongya.herokuapp.com">Heroku</a></li>
+                    </ul>
+                    <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./yiyan.sh</span>
+                    <p id="hitokoto">嘛，一言获取中🤣...</p>
+                    <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
+                    <span style="color: blue;">~</span>
+                    <span style="color: rgb(39, 39, 39);">./ip.sh</span>
+                    <p class="getip"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div id="footer">
+        <p>Copyrights © 2021 By YuKongA</p>
+    </div>
+    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script type="text/javascript">(function getip(selector){var ip="你的 IP: "+returnCitySN["cip"];var ele=document.querySelector(selector);Array.isArray(ele)?ele[0].innerText=ip:ele.innerText=ip;})('.getip')</script>
+<script>
+fetch('https://v1.hitokoto.cn')
+.then(response => response.json())
+.then(data => {
+    const hitokoto = document.getElementById('hitokoto')
+    hitokoto.innerText = data.hitokoto + '——' +data.from + ''
+})
+.catch(console.error)
+</script>
+</body>
+
+</html>
