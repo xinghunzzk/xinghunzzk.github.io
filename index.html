@@ -64,13 +64,13 @@
                 <div class="cmdText">
                     <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
                     <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">./tianqi.sh</span>
+                    <span style="color: rgb(39, 39, 39);">./TianQi.sh</span>
                     <br />
                     <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=tu&skin=pitaya" frameborder="0" width="350" height="24" allowtransparency="true"></iframe>
                     <br />
                     <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
                     <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">cat ./me.txt</span>
+                    <span style="color: rgb(39, 39, 39);">cat ./Me.txt</span>
                     <p>昵称：余空</p>
                     <p>性别：男</p>
                     <p>年龄：20岁</p>
@@ -80,7 +80,7 @@
                     <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">sudo rm -rf /*</span>
-                    <p>sudo: 请输入密码: *******</p>
+                    <p>sudo: 请输入密码: ****</p>
                     <p>zsh: 已删除</p>
                     <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
                     <span style="color: blue;">~</span>
@@ -102,8 +102,7 @@
                 <div class="cmdText">
                     <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
                     <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">./links.sh</span>
-                    <p>我的站点：</p>
+                    <span style="color: rgb(39, 39, 39);">./Links.sh</span>
                     <ul class="ul">
                         <li><a href="#">Home</a></li>
                         <li><a href="https://www.coolapk.com/u/680367">Coolapk</a></li>
@@ -112,12 +111,10 @@
                     </ul>
                     <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
                     <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">./yiyan.sh</span>
+                    <span style="color: rgb(39, 39, 39);">./YiYan.sh</span>
                     <p id="hitokoto">嘛，一言获取中🤣...</p>
                     <span style="color: rgb(0, 190, 0);">root@YuKongA</span>
                     <span style="color: blue;">~</span>
-                    <span style="color: rgb(39, 39, 39);">./ip.sh</span>
-                    <p class="getip"></p>
                 </div>
             </div>
         </div>
@@ -127,17 +124,16 @@
     <div id="footer">
         <p>Copyrights © 2021 By YuKongA</p>
     </div>
-    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
-    <script type="text/javascript">(function getip(selector){var ip="你的 IP: "+returnCitySN["cip"];var ele=document.querySelector(selector);Array.isArray(ele)?ele[0].innerText=ip:ele.innerText=ip;})('.getip')</script>
-<script>
-fetch('https://v1.hitokoto.cn')
-.then(response => response.json())
-.then(data => {
-    const hitokoto = document.getElementById('hitokoto')
-    hitokoto.innerText = data.hitokoto + '——' +data.from + ''
-})
-.catch(console.error)
-</script>
+    <script>
+        fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            const hitokoto = document.getElementById('hitokoto')
+            hitokoto.innerText = data.hitokoto + '——' +data.from + ''
+        })
+    .catch(console.error)
+    </script>
+    
 </body>
 
 </html>
