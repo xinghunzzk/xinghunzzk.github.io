@@ -280,7 +280,7 @@ body {
     text-align: center;
     position: fixed;
     bottom: 0;
-    padding: 2em 0;
+    padding: 1em 0;
     z-index: 11;
     transition: all .1s ease-out;
 }
@@ -389,6 +389,7 @@ body {
     }
 
     .meBox:hover .meBox-title p {
+        margin: 0 auto;
         font-size: 1.2rem;
     }
 
