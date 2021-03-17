@@ -84,7 +84,7 @@ body {
 .meBox-title p {
     font-size: 1.2rem;
     border-right: .1em solid;
-    width: 5.5ch;
+    width: 4.5ch;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 1s steps(10, end), blink-caret .3s step-end infinite alternate;
@@ -158,15 +158,14 @@ body {
 }
 
 .meBox:hover .meBox-Button a {
-    width: 166px;
-    margin-top: -14px;
+    width: 165px;
+    margin-top: -15px;
 }
 
 #cmdBox {
     width: 710px;
     height: 550px;
     float: right;
-    /* background-color: green; */
 }
 
 .cmd {
