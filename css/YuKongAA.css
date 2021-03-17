@@ -9,8 +9,7 @@ html, body {
 }
 
 body {
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: url(https://cdn.jsdelivr.net/gh/YuKongA/HomePage@main/img/1.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -369,6 +368,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
     .meBox {
         width: 300px;
     }
