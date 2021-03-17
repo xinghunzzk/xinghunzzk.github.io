@@ -15,7 +15,6 @@ body {
 }
 
 #box {
-    /* background-color: red; */
     width: 1200px;
     height: 100px;
     margin: 0 auto;
@@ -274,16 +273,15 @@ body {
 }
 
 #footer {
-    width: 67%;
+    width: 100%;
     color: white;
-    float: left;
+    float: none;
     text-align: center;
     position: fixed;
     bottom: 0;
-    padding: 0.8em 2em;
+    padding: 1em 2em;
     z-index: 11;
     transition: all .1s ease-out;
-    /* background-color: blue; */
 }
 
 #footer:hover {
