@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(https://cdn.jsdelivr.net/gh/YuKongA/HomePage@main/img/1.webp);
+    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(https://cdn.jsdelivr.net/gh/YuKongA/HomePage@main/img/banner.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
