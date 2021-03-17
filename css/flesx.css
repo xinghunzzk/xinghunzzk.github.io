@@ -276,7 +276,7 @@ body {
 #footer {
     width: 100%;
     color: white;
-    float: none;
+    float: left;
     text-align: center;
     position: fixed;
     bottom: 0;
