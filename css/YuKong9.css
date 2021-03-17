@@ -84,7 +84,7 @@ body {
 .meBox-title p {
     font-size: 1.2rem;
     border-right: .1em solid;
-    width: 4.5ch;
+    width: 5ch;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 1s steps(10, end), blink-caret .3s step-end infinite alternate;
@@ -145,7 +145,7 @@ body {
     float: left;
     width: 158px;
     height: 50px;
-    margin-top: -15px;
+    margin-top: -25px;
     line-height: 50px;
     text-decoration: none;
     color: gray;
@@ -159,7 +159,7 @@ body {
 
 .meBox:hover .meBox-Button a {
     width: 165px;
-    margin-top: -15px;
+    margin-top: -25px;
 }
 
 #cmdBox {
@@ -342,7 +342,7 @@ body {
     .meBox:hover .meBox-Button a {
         width: 158px;
         height: 50px;
-        margin-top: -14px;
+        margin-top: -25px;
     }
 
     .meBox:hover .meBox-title p {
@@ -368,14 +368,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: #8EC5FC;
-        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    
     .meBox {
         width: 300px;
     }
