@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: url(YuKongA.webp);
+    background-image: url(background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -26,7 +26,7 @@ body {
     float: left;
     width: 20rem;
     height: 25rem;
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: rgb(255, 255, 255, 0.92);
     margin-top: 100px;
     border-radius: 15px;
     transition: all 0.3s;
@@ -174,7 +174,7 @@ body {
     height: 360px;
     border-radius: 15px;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: rgb(255, 255, 255, 0.9);
     transition: all 0.3s;
     font-size: 14px;
     color: rgb(88, 88, 88);
@@ -194,7 +194,7 @@ body {
 .cmd .title {
     width: 100%;
     height: 20px;
-    margin: 8px 0 0;
+    margin: 7.8px 0 0;
     background-image: white;
     font-size: 15px;
     line-height: 25px;
@@ -227,7 +227,7 @@ body {
 
 .cmd .click .red:hover {
     background-color: #FD5757;
-    box-shadow: 0 0 4px #FD5757;
+    box-shadow: 0 0 5px #FD5757;
 }
 
 .cmd .click .yellow {
@@ -237,7 +237,7 @@ body {
 
 .cmd .click .yellow:hover {
     background-color: #FBB944;
-    box-shadow: 0 0 4px #FBB944;
+    box-shadow: 0 0 5px #FBB944;
 }
 
 .cmd .click .green {
@@ -247,12 +247,12 @@ body {
 
 .cmd .click .green:hover {
     background-color: #E4D8D8;
-    box-shadow: 0 0 4px #E4D8D8;
+    box-shadow: 0 0 5px #E4D8D8;
 }
 
 .cmdText {
-    padding-top: 10px;
-    padding-left: 15px;
+    padding-top: 18px;
+    padding-left: 29px;
 }
 
 .cmd2 {
@@ -291,7 +291,7 @@ body {
     color: #464646;
 }
 
-@media screen and (max-height: 650px) and (min-width: 1280px)
+@media screen and (max-height: 600px) and (min-width: 1280px)
 {
 #footer {
         background-color: rgba(255,255,255,0.3);
