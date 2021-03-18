@@ -219,8 +219,8 @@ body {
 }
 
 .cmd .click .red {
-    background-color: #ff1b22;
-    box-shadow: 0 0 1px #ff1b22;
+    background-color: #F04E59;
+    box-shadow: 0 0 1px #F04E59;
 }
 
 .cmd .click .red:hover {
@@ -229,8 +229,8 @@ body {
 }
 
 .cmd .click .yellow {
-    background-color: #ffaf00;
-    box-shadow: 0 0 1px #ffaf00;
+    background-color: #F9C445;
+    box-shadow: 0 0 1px #F9C445;
 }
 
 .cmd .click .yellow:hover {
@@ -239,8 +239,8 @@ body {
 }
 
 .cmd .click .green {
-    background-color: #00931a;
-    box-shadow: 0 0 1px #00931a;
+    background-color: #40EA53;
+    box-shadow: 0 0 1px #40EA53;
 }
 
 .cmd .click .green:hover {
