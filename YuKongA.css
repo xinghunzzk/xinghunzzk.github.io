@@ -204,7 +204,6 @@ body {
     display: inline-block;
     width: 70%;
     text-align: center;
-    /* background-color: red; */
 }
 
 .cmd .click {
@@ -254,6 +253,7 @@ body {
 .cmdText {
     padding-top: 18px;
     padding-left: 29px;
+    padding-right: 29px;
 }
 
 .cmd2 {
@@ -380,8 +380,7 @@ body {
     }
 
     .meBox:hover {
-        width: 320px;
-        height: 25.5rem;
+        height: 25.6rem;
         margin: 100px auto 100px;
     }
 
@@ -431,8 +430,8 @@ body {
     }
 
     .cmd:hover {
-        width: 81%;
-        height: 364px;
+        width: 80%;
+        height: 360px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         margin: 0 auto;
         z-index: 1;
