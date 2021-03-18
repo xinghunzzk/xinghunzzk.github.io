@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: url(../img/YuKongA.webp);
+    background-image: url(YuKongA.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -43,7 +43,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(../img/YuKongA.png) no-repeat;
+    background: url(YuKongA.png) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
