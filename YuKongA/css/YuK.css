@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: url(https://cdn.jsdelivr.net/gh/YuKongA/HomePage@main/img/1.webp);
+    background-image: url(https://cdn.jsdelivr.net/gh/YuKongA/HomePage@main/YuKongA/img/1.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -43,7 +43,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://cdn.jsdelivr.net/gh/YuKongA/HomePage@main/img/YuKong.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/YuKongA/HomePage@main/YuKongA/img/YuKong.png) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
