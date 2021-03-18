@@ -209,6 +209,7 @@ body {
 
 .cmd .click {
     margin-left: 10px;
+    margin-right: 10px;
     float: left;
 }
 
@@ -430,7 +431,8 @@ body {
     }
 
     .cmd:hover {
-        width: 78%;
+        width: 81%;
+        height: 364px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         margin: 0 auto;
         z-index: 1;
