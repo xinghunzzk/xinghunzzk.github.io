@@ -138,28 +138,28 @@ body {
 }
 
 .meBox-Button {
-    width: 100%;
+    width: 105%;
 }
 
 .meBox-Button a {
-    display: inline-block;
     float: left;
-    width: 158px;
+    display: inline-block;
+    width: 162px;
     height: 50px;
     margin-top: 0px;
     line-height: 50px;
     text-decoration: none;
-    color: gray;
+    color: rgb(88, 88, 88);
     transition: all 0.3s;
 }
 
 .meBox-Button a:hover {
-    color: rgb(0, 132, 255);
+    color: rgb(0, 135, 255);
     font-size: 1.2rem;
 }
 
 .meBox:hover .meBox-Button a {
-    width: 165px;
+    width: 168px;
     font-size: 1.1rem;
 }
 
@@ -346,8 +346,13 @@ body {
         margin-top: 13px;
     }
 
+    .meBox-Button a {
+        width: 161px;
+        height: 50px;
+    }
+
     .meBox:hover .meBox-Button a {
-        width: 158px;
+        width: 161px;
         height: 50px;
         font-size: 1.1rem;
     }
@@ -410,9 +415,15 @@ body {
     }
 
     .meBox-Button a {
-        width: 157px;
+        width: 163px;
+        font-size: 1rem;
     }
 
+    .meBox:hover .meBox-Button a {
+        width: 163px;
+        font-size: 1.05rem;
+    }
+    
     #cmdBox {
         width: 100%;
         height: 850px;
