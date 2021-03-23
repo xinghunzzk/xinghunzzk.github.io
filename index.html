@@ -126,7 +126,7 @@
         .then(response => response.json())
         .then(data => {
             const hitokoto = document.getElementById('hitokoto')
-            hitokoto.innerText = data.hitokoto + '——' +data.from + ''
+            hitokoto.innerText = data.hitokoto + '——' +data.from
         })
     .catch(console.error)
     </script>
