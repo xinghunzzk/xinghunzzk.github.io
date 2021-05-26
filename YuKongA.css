@@ -224,7 +224,7 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    margin: 13px 0 0 5px;
+    margin: 15px 0 0 6px;
     float: left;
 }
 
@@ -324,13 +324,13 @@ body {
     }
 
     .meBox {
-        width: 25%;
+        width: 26%;
         margin-left: 5%;
     }
 
     .meBox:hover {
         margin-left: 4.7%;
-        width: 27.5%;
+        width: 26.5%;
         height: 27.5rem;
     }
 
