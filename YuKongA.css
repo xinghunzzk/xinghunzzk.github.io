@@ -28,18 +28,18 @@ body {
 
 .meBox {
     float: left;
-    width: 27%;
+    width: 21rem;
     height: 27rem;
     background-color: rgb(255, 255, 255, 0.85);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
     margin-top: 10%;
-    border-radius: 15px;
+    border-radius: 20px;
     transition: all 0.3s;
     text-align: center;
 }
 
 .meBox:hover {
-    width: 27.5%;
+    width: 21.5rem;
     height: 27.5rem;
     margin: 10% 0 0 -3px;
     background-color: rgb(255, 255, 255, 0.95);
@@ -64,7 +64,8 @@ body {
     height: 9rem;
     margin: -0.5rem 0 0 -4.5rem;
     transform: rotate(360deg);
-    transition: all 0.6s;
+    transition: all 0.5s;
+    margin-top: -17px;
 }
 
 .meBox-title {
@@ -85,13 +86,14 @@ body {
 
 .meBox-title p {
     font-size: 1.2rem;
-    border-right: 0.12em solid;
+    border-right: 0.125em solid;
     width: 3.5ch;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 1s steps(10, end), blink-caret 0.5s step-end infinite alternate;
     margin: 0 auto;
     transition: all 0.3s;
+    margin-top: -8px;
 }
 
 .meBox:hover .meBox-title p {
@@ -102,29 +104,24 @@ body {
     width: 80%;
     height: 2.5px;
     background-image: linear-gradient(to left, #3498db, #2980b9);
-    margin: 5% 10% 0 10%;
+    margin: 25px 0 0 10%;
 }
 
 .meBox-text {
     width: 80%;
-    height: 45%;
+    height: 192px;
     overflow: hidden;
     text-align: center;
     color: rgb(88, 88, 88);
     animation-name: meBox-text;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    margin: 5% 0 0 10%;
+    margin: 20px 0 0 10%;
     transition: all 0.3s;
-}
-
-.meBox-text p {
-    margin-top: 5px;
 }
 
 .meBox:hover .meBox-text {
     font-size: 1.05rem;
-    margin-top: 10px;
 }
 
 @keyframes meBox-text {
@@ -141,8 +138,7 @@ body {
 
 .meBox-Button1 a {
     float: left;
-    margin-top: 0px;
-    margin-left: 15%;
+    margin-left: 10%;
     line-height: 30px;
     text-decoration: none;
     color: rgb(88, 88, 88);
@@ -153,13 +149,12 @@ body {
 .meBox-Button1 a:hover {
     color: rgb(0, 135, 255);
     font-size: 1.1rem;
-    margin-left: 14%;
+    margin-left: 10%;
 }
 
 .meBox-Button2 a {
     float: right;
-    margin-top: 0px;
-    margin-right: 15%;
+    margin-right: 10%;
     line-height: 30px;
     text-decoration: none;
     color: rgb(88, 88, 88);
@@ -170,7 +165,7 @@ body {
 .meBox-Button2 a:hover {
     color: rgb(0, 135, 255);
     font-size: 1.1rem;
-    margin-right: 14%;
+    margin-right: 9%;
 }
 
 
@@ -183,7 +178,7 @@ body {
 .cmd {
     width: 550px;
     height: 360px;
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
     background-color: rgb(255, 255, 255, 0.85);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
@@ -321,43 +316,27 @@ body {
     color: rgb(51, 105, 232);
 }
 
-@media screen and (max-height: 600px) and (min-width: 1280px) {
+@media screen and (max-height: 500px) and (min-width: 1280px) {
     #footer {
         background-color: rgb(255,255,255,0.85);
         color:rgb(88, 88, 88);
     }
 }
 
-@media screen and (max-width: 1440px) {
+
+@media screen and (max-width: 1280px) {
     #box {
         width: 100%;
     }
 
     .meBox {
-        width: 26%;
-        margin-left: 5%;
-    }
-
-    .meBox:hover {
-        margin-left: 4.7%;
-        width: 26.5%;
-        height: 27.5rem;
-    }
-
-    #cmdBox {
-        margin-right: 5%;
-    }
-}
-
-@media screen and (max-width: 1160px) {
-    .meBox {
-        width: 20rem;
+        width: 21rem;
         float: none;
         margin: 100px auto 100px;
     }
 
     .meBox:hover {
-        width: 20.5rem;
+        width: 21.5rem;
         height: 27.5rem;
         margin: 105px auto 100px;
     }
@@ -367,14 +346,7 @@ body {
     }
 
     .meBox:hover .meBox-title p {
-        font-size: 1.35rem;
-    }
-
-    .meBox:hover .headPhoto {
-        width: 8rem;
-        height: 8rem;
-        margin: -0.5rem 0 0 -4rem;
-        transform: rotate(360deg);
+        font-size: 1.2rem;
     }
 
     #cmdBox {
@@ -394,33 +366,26 @@ body {
     }
 
     .meBox:hover {
+        margin-top: 24%;
         width: 80%;
-        height: 27.5rem;
-        margin: 110px auto;
     }
 
     .meBox:hover .meBox-title p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        margin-top: -20px;
     }
 
 
     .meBox:hover .meBox-text {
-        font-size: 1.05em;
-    }
-
-    .meBox-Button1 a {
-        margin-top: -3%;
-    }
-    
-    
-    .meBox-Button2 a {
-        margin-top: -3%;
+        font-size: 1rem;
+        margin-top: 20px;
     }
     
     #cmdBox {
         width: 100%;
         margin-top:-78px;
-        height: 810px;
+        height: 797px;
+        margin-right: 5%;
     }
 
     .cmd {
