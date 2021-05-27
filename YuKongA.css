@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: url(http://bing.ioliu.cn/v1/rand);
+    background-image: url(https://api.blogbig.cn/bing/api.php);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
