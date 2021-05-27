@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: url(background.png);
+    background-image: url(http://bing.ioliu.cn/v1/rand);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -17,7 +17,7 @@ body {
 
 #box {
     width: 1200px;
-    height: 630px;
+    height: 620px;
     position: absolute;
     left: 0;
     top: 0;
@@ -294,34 +294,40 @@ body {
     text-align: center;
     position: fixed;
     bottom: 0;
-    padding: 0.8em 0;
+    padding: 0.5em 0;
     z-index: 11;
     transition: all .1s ease-out;
 }
 
 #footer:hover {
     background-color: rgb(255,255,255,0.85);
-    color: rgb(50, 50, 50);
+    color: rgb(88, 88, 88);
 }
 
-@media screen and (max-height: 600px) and (min-width: 1280px)
-{
-#footer {
+#header{
+    width: 99%;
+    color: white;
+    text-align: left;
+    padding: 0.5em 0.5em;
+}
+
+#header a{
+    width: 99%;
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: rgb(51, 105, 232);
+}
+
+@media screen and (max-height: 600px) and (min-width: 1280px) {
+    #footer {
         background-color: rgb(255,255,255,0.85);
-        color:rgb(50, 50, 50);
+        color:rgb(88, 88, 88);
     }
 }
 
-#footer a {
-    text-decoration: none;
-    color: rgb(255,255,255,0.85);
-}
-
-#footer a:hover {
-    color: rgb(0,81,255);
-}
-
-/* 自适应 */
 @media screen and (max-width: 1440px) {
     #box {
         width: 100%;
