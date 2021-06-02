@@ -1,3 +1,3 @@
 <div>
-    <p><a href="https://www.yukonga.top"><img alt="Screenshot.png" src="Screenshot.png"></a></p>
+    <p><a href="https://www.yukonga.top"><img alt="Demo.png" src="Demo.png"></a></p>
 </div>
